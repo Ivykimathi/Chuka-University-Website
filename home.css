@@ -1,0 +1,317 @@
+body{
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+    background-color: cyan;
+}
+nav{
+    background-color: green;
+}
+div.header{
+    display: inline-flex;
+    justify-content:space-between; 
+    /* background-color: rgba(0,0,0,0.8); */
+    display: inline-flex;
+    width: 90%; 
+    margin-top: 1%;
+    margin-left: 3%;
+    margin-bottom: 1%;
+    border-radius: 40px;
+    box-shadow: 1px 1px 5px white;
+
+}
+div.navbrand{
+    display: flex;
+    
+    /* width: 75%; */
+}
+div.navbrand a{
+    color: white;
+    padding: 5px;
+}
+div.navbrand img{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    padding-top: 5px;
+}
+div.navbrand span.navlogo{
+    color: white;
+    padding: 18px;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+div.links{
+   /*  width: 20%; */
+    display: flex;
+    
+}
+ hr{
+    color: yellow;
+    height: 3px;
+} 
+div.links ul{
+    display:inline-flex;
+    
+    list-style: none;
+    
+}
+div.links ul li{
+    display: flex;
+    margin: 0 20px;
+}
+div.links ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+div.links ul li a.button{
+    
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px white;
+    display: inline;
+    border: 1px solid orangered;
+    padding: 5px;
+}
+table.noti{
+    background-color:darkblue; 
+    color: white;
+    width: 100%;
+}
+table.noti a{
+    color: white;
+    font-weight: bolder;
+}
+div.backi{
+    background-image: url(assets/img/top.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0 ;
+}
+div.backi div.con{
+    height: 500px;
+    opacity: 0.7;
+    background-color: black;
+    color: white;
+}
+div.backi div.con .title{
+    padding-top: 25px;
+}
+div.backi div.con .title h1{
+    letter-spacing: 30px;
+    word-spacing: 10px;
+    font-weight: bolder;
+    font-size: 2rem;
+    
+}
+div.backi div.con hr{
+    height: 10px;
+    width: 90%;
+}
+div.backi div.con .col{
+    display: inline-flex;
+    display: inline;
+    width: 100%;
+    padding-top: 110px;
+    text-align: center;
+}
+div.backi div.con .col h1{
+    color:greenyellow;
+    margin-top: 100px;
+    font-weight: bolder;
+
+}
+table.anoun{
+    background-color: white;
+    width:100%;
+    height:70px;
+}
+table.anoun img{
+    border-radius:10px;
+    box-shadow: 3px 3px 5px black;
+}
+table.anoun h5{
+    font-weight: bolder;
+    font-size: 1.1rem;
+    padding-left: 10px;
+}
+table.anoun a{
+    color: red;
+    padding-left: 10px;
+}
+div.row{
+    width: 100%;
+    display: inline-flex;
+}
+div.row div.col-4{
+    width: 480px;
+    width: 50%;
+    background-color: rgba(0, 0, 53);
+}
+div.row div.col-4 h2{
+    color: white;
+    font-size: 1.5rem;
+    letter-spacing: 8px;
+}
+div.row div.col-4 h4{
+    color: greenyellow;
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+}
+div.row div.col-4 p{
+    color: white;
+    line-height: 35px;
+}
+div.foota table{
+    width: 100%;
+    padding: 30px;
+}
+div.foota table td a{
+    color: darkblue;
+    font-family: Georgia;
+    font-weight: bold;
+    
+}
+div.foota table tr{
+    margin-bottom: 60px;
+}
+table.foota{
+    background-color: black ;
+    color: white;
+    width: 100%;
+}
+table{
+    width: 100%;
+}
+@media (max-width:678px) {
+    table{
+        width: 100%;
+    }
+    body{
+        overflow: auto;
+        margin: 0;
+    }
+    nav{
+        width: 100%;
+    }
+}
+@media (max-width:678px){
+    body{
+        margin: 0;
+        overflow-x: hidden;
+    }
+    nav{
+        width: 100%;
+        
+    }
+    div.header{
+        display: block;
+       width: 95%;
+        margin-top: 1%;
+        border-radius: 40px;
+        box-shadow: 1px 1px 5px white;
+    }
+    div.navbrand{
+        display: flex;
+        width: 100%; 
+    }
+    div.navbrand a{
+        color: white;
+        padding: 5px;
+    }
+    div.navbrand img{
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+        padding-top: 5px;
+    }
+    div.navbrand span.navlogo{
+        color: white;
+        padding: 18px;
+        font-weight: bolder;
+        font-size: 1.5rem;
+    }
+    div.links{
+       /*  width: 20%; */
+        display: flex;
+        
+    }
+     hr{
+        color: yellow;
+        height: 3px;
+    } 
+    div.links ul{
+        display:inline-flex;
+        
+        list-style: none;
+        
+    }
+    div.links ul li{
+        display: flex;
+        margin: 0 8px;
+    }
+    div.links ul li a{
+        text-decoration: none;
+        color: black;
+        font-weight: bolder;
+        font-size: 1.2rem;
+    }
+    div.links ul li a.button{
+        
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px white;
+        display: inline;
+        border: 1px solid orangered;
+        padding: 5px;
+    }
+    table.noti{
+        background-color:darkblue; 
+        color: white;
+        width: 100%;
+    }
+    table.noti tr{
+        width: 100%;
+    }
+    table.noti td{
+        margin-right: 7px;
+        border: 1px solid black;
+        font-size: 0.7rem;
+        
+    }
+    div.backi div.con{
+        height: 100%;
+        width: 100%;
+        opacity: 0.7;
+        background-color: black;
+        color: white;
+        padding-bottom: 20px;
+    }
+    table.anoun{
+        width: 100%;
+    }
+    table.anoun .them td{
+        display: block;
+    }
+    table.anoun  img{
+        text-align: center;
+        width: 59%;
+        height: 50%;
+    }
+    div.row{
+        display: block;
+    }
+    div.row div.col-4{
+        width: 100%;
+    }
+    div.row div.col-4 img{
+        width: 100%;
+    }
+    table{
+        width: 100%;
+    }
+}
